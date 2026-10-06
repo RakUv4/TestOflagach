@@ -36,7 +36,7 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFEB3B"
+            android:backgroundTint="@color/Yellow"
             android:layout_weight="1"
             android:layout_margin="8dp"
             android:onClick="prawdzUkr"
@@ -56,7 +56,7 @@
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#4CAF50"
+            android:backgroundTint="@color/Green"
             android:layout_weight="1"
             android:layout_margin="8dp"
             android:onClick="prawdzUkr"
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="8dp"
-            android:backgroundTint="#126"
+            android:backgroundTint="@color/Blue"
             android:onClick="prawdzUkr"
             android:text="" />
 
@@ -84,7 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="8dp"
-            android:backgroundTint="#e2001b"
+            android:backgroundTint="@color/red"
             android:onClick="prawdzOK"
             android:text="" />
 
