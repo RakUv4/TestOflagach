@@ -31,7 +31,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void prawdzOK(View view) {
-        Toast.makeText(MainActivity.this, "ten kolor należy do flagi polski, nie klikaj go", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this,
+        R.string.ostrzezenie,
+        Toast.LENGTH_SHORT).show();
+
     }
 
     public void prawdzUkr(View view) {
@@ -39,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         licznikklikniec++;
         if(licznikklikniec == 4){
             // komunikat i zmiana wyglądu
-            textVievPytanie.setText("Brawo,\n to jest flaga Polski!");
+            textVievPytanie.setText(R.string.podsumowanie);
         }
     }
 }

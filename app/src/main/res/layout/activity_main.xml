@@ -20,12 +20,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textSize="23sp"
-        android:layout_margin="16dp"
+        android:textSize="@dimen/rozmiar_tekstu_pytanie"
+        android:layout_margin="@dimen/margin_button"
         android:padding="8dp"
         android:textColor="#FFEB3B"
         android:background="#1C3750"
-        android:text="Wybierz kolory, których nie ma we fladze Polski" />
+        android:text="@string/polecenie" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/Yellow"
             android:layout_weight="1"
-            android:layout_margin="8dp"
+            android:layout_margin="@dimen/margin_button"
             android:onClick="prawdzUkr"
             android:text="" />
 
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
             android:layout_weight="1"
-            android:layout_margin="8dp"
+            android:layout_margin="@dimen/margin_button"
             android:onClick="prawdzOK"
             android:text="" />
 
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/Green"
             android:layout_weight="1"
-            android:layout_margin="8dp"
+            android:layout_margin="@dimen/margin_button"
             android:onClick="prawdzUkr"
             android:text="" />
     </LinearLayout>
@@ -73,7 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_margin="8dp"
+            android:layout_margin="@dimen/margin_button"
             android:backgroundTint="@color/Blue"
             android:onClick="prawdzUkr"
             android:text="" />
@@ -83,7 +83,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_margin="8dp"
+            android:layout_margin="@dimen/margin_button"
             android:backgroundTint="@color/red"
             android:onClick="prawdzOK"
             android:text="" />
@@ -93,7 +93,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_margin="8dp"
+            android:layout_margin="@dimen/margin_button"
             android:backgroundTint="@color/black"
             android:onClick="prawdzUkr"
             android:text="" />

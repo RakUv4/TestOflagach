@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestOFlagach</string>
+    <string name="polecenie">Select colors wchich are not in the Polish flag</string>
+    <string name="ostrzezenie">This color is not in the Polish flag</string>
+    <string name="podsumowanie">Congrats this is the Polish flag</string>
+</resources>
